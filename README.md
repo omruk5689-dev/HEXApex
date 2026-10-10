@@ -34,9 +34,3 @@ Hold BOOT while plugging in USB and copy the `.uf2` to the `RPI-RP2` drive.
 
 Pins (from the schematic): columns GP0-GP2, rows GP8-GP10 (COL2ROW), encoders GP15/16, GP17/18, GP19/20, key RGB data GP24, user LED GP25, user RGB LED GP26/27/28.
 
-## Notes
-
-- The simulator loads three.js from a CDN, so it needs internet.
-- The helper listens only on 127.0.0.1, only the page it serves can talk to it, and it accepts only simple shortcuts.
-- If EasyEDA or VS Code runs as administrator, run the helper as administrator too. On macOS, allow Accessibility access.
-- Hardware design: MACROPeX (c) 2026 Omer Ruk, CC BY-NC 4.0 (from the schematic title block).
